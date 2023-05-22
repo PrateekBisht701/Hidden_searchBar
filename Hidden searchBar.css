@@ -58,6 +58,14 @@ body {
     transition: transform 0.3 ease;
 }
 
+.search .input::placeholder {
+    color: #fff;
+}
+
+.btn> i {
+    color: #fff;
+}
+
 .btn:focus, 
 .input:focus {
     outline: none;
